@@ -6,7 +6,7 @@ import de.lesh.rolebotplus.commands.GuildEvent.leave;
 import de.lesh.rolebotplus.commands.MessageEvent.Help;
 import de.lesh.rolebotplus.commands.MessageEvent.verify;
 import de.lesh.rolebotplus.commands.GuildEvent.welcome;
-import de.lesh.rolebotplus.utils.Token;
+import main.java.de.lesh.rolebotplus.utils.Token;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
