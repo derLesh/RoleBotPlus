@@ -1,4 +1,4 @@
-.gradle\
+.gradle/
 *.iml
 production
 *.class
@@ -6,8 +6,8 @@ production
 .classpath
 .project
 *.bat
-Token.java
-.idea\*
+Token.java 
+.idea/
 workspace.xml
 out/
 
