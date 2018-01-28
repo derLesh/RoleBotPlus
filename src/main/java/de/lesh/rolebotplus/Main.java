@@ -20,7 +20,7 @@ public class Main {
     private static JDABuilder jdaB = new JDABuilder(AccountType.BOT);
     public static Logger jLog = JDALogger.getLog("RoleBotPlus");
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         jLog.info("Starting RoleBot+ ...");
         try {
             jda = jdaB.setToken(Token.getToken()).setGame(Game.listening("!verify // !help")).buildBlocking();
