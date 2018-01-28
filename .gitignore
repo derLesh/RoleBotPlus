@@ -11,6 +11,8 @@ Token.java
 workspace.xml
 out/
 
+config.json
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

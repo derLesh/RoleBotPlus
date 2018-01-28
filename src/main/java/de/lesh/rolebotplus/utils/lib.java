@@ -1,4 +1,4 @@
-package main.java.de.lesh.rolebotplus.utils;
+package de.lesh.rolebotplus.utils;
 
 public class lib {
 

@@ -1,4 +1,4 @@
-package main.java.de.lesh.rolebotplus.commands.MessageEvent;
+package de.lesh.rolebotplus.commands.MessageEvent;
 
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
