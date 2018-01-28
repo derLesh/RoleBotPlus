@@ -1,4 +1,6 @@
 .gradle/
+MANIFEST.MF
+gradle/
 *.iml
 production
 *.class

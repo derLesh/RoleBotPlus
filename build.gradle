@@ -12,10 +12,21 @@ repositories {
     }
 }
 
+println gradle.gradleHomeDir
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'net.dv8tion:JDA:+'
+    compile 'net.dv8tion:JDA:3.5.0_331'
     compile 'org.slf4j:slf4j-api:1.7.24'
+    compile files("E:\\Programmieren\\Java\\MoreColors\\out\\artifacts\\MoreColors-1.0\\MoreColors-1.0.jar")
     compile group: 'org.json', name: 'json', version: '20171018'
     testCompile 'junit:junit:4.12'
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": "de.lesh.rolebotplus.Main",
+        )
+    }
 }
