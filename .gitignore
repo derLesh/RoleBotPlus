@@ -1,4 +1,5 @@
 .gradle\
+production
 *.class
 *.json
 .classpath
@@ -7,7 +8,7 @@
 Token.java 
 .idea\
 workspace.xml
-out\
+out/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
