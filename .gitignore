@@ -1,11 +1,11 @@
-.gradle
+.gradle\
 *.class
 *.json
 .classpath
 .project
 *.bat
 Token.java 
-.idea
+.idea\
 workspace.xml
 out
 
