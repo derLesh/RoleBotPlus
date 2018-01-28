@@ -1,12 +1,8 @@
-package de.lesh.rolebotplus;
+package main.java.de.lesh.rolebotplus;
 
-import de.lesh.rolebotplus.commands.GuildEvent.ban;
-import de.lesh.rolebotplus.commands.MessageEvent.Bot;
-import de.lesh.rolebotplus.commands.GuildEvent.leave;
-import de.lesh.rolebotplus.commands.MessageEvent.Help;
-import de.lesh.rolebotplus.commands.MessageEvent.verify;
-import de.lesh.rolebotplus.commands.GuildEvent.welcome;
-import de.lesh.rolebotplus.utils.Token;
+import main.java.de.lesh.rolebotplus.utils.*;
+import main.java.de.lesh.rolebotplus.commands.GuildEvent.*;
+import main.java.de.lesh.rolebotplus.commands.MessageEvent.*;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;

@@ -1,4 +1,4 @@
-package de.lesh.rolebotplus.commands.GuildEvent;
+package main.java.de.lesh.rolebotplus.commands.GuildEvent;
 
 import me.lesh.material.Red;
 import net.dv8tion.jda.core.EmbedBuilder;
