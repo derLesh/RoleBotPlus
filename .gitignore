@@ -6,7 +6,7 @@ production
 .classpath
 .project
 *.bat
-Token.java 
+Token.java
 .idea\*
 workspace.xml
 out/
