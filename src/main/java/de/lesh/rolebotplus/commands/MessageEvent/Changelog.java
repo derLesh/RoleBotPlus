@@ -1,4 +1,6 @@
 package main.java.de.lesh.rolebotplus.commands.MessageEvent;
 
-public class Changelog {
+import net.dv8tion.jda.core.hooks.ListenerAdapter;
+
+public class Changelog extends ListenerAdapter{
 }

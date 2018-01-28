@@ -1,4 +1,4 @@
-package de.lesh.rolebotplus.commands.MessageEvent;
+package main.java.de.lesh.rolebotplus.commands.MessageEvent;
 
 import me.lesh.material.Green;
 import me.lesh.material.Red;

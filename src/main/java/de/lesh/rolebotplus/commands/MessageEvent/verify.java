@@ -1,7 +1,7 @@
-package de.lesh.rolebotplus.commands.MessageEvent;
+package main.java.de.lesh.rolebotplus.commands.MessageEvent;
 
-import de.lesh.rolebotplus.Main;
-import de.lesh.rolebotplus.utils.lib;
+import main.java.de.lesh.rolebotplus.Main;
+import main.java.de.lesh.rolebotplus.utils.lib;
 import me.lesh.material.Green;
 import me.lesh.material.Red;
 import net.dv8tion.jda.core.EmbedBuilder;
