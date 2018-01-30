@@ -1,27 +1,25 @@
-apply plugin: 'java'
-apply plugin: 'application'
+plugins {
+    id'java'
+    id'application'
+    id'com.github.johnrengelman.shadow' version '2.0.1'
+}
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = sourceCompatibility
 mainClassName = 'de.lesh.rolebotplus.Main'
+
+version '1.0'
+
+sourceCompatibility = 1.8
 
 repositories {
     jcenter()
-    maven {
-        url 'https://jitpack.io'
-    }
 }
-
-println gradle.gradleHomeDir
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'net.dv8tion:JDA:3.5.0_331'
-    compile 'org.slf4j:slf4j-api:1.7.24'
+    compile group: 'net.dv8tion', name: 'JDA', version: '3.5.0_331'
     compile files("E:\\Programmieren\\Java\\MoreColors\\out\\artifacts\\MoreColors-1.0\\MoreColors-1.0.jar")
-    compile group: 'org.json', name: 'json', version: '20171018'
-    testCompile 'junit:junit:4.12'
 }
+
+compileJava.options.encoding = 'UTF-8'
 
 jar {
     manifest {
