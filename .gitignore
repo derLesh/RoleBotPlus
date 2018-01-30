@@ -8,6 +8,7 @@ production
 .classpath
 .project
 *.bat
+*.jar
 Token.java 
 .idea/
 workspace.xml
