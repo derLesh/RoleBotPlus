@@ -24,7 +24,7 @@ public class Main {
         jLog.info("Starting RoleBot+ ...");
         try {
             jda = jdaB.setToken(Config.getToken())
-                    .setGame(Game.listening("!VerifyEvent // !help"))
+                    .setGame(Game.listening("!verify // !help"))
                     .buildBlocking();
         } catch (Exception e) {
             jLog.error("Error during logging in", e);
