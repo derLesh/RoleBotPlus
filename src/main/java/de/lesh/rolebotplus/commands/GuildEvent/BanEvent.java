@@ -13,7 +13,7 @@ import net.dv8tion.jda.core.requests.RestAction;
 
 import java.util.List;
 
-public class ban extends ListenerAdapter {
+public class BanEvent extends ListenerAdapter {
 
     public void onGuildBan(GuildBanEvent e) {
         EmbedBuilder eB = new EmbedBuilder();

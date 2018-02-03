@@ -13,16 +13,16 @@ import net.dv8tion.jda.core.requests.Route;
 
 import java.util.List;
 
-public class Support {
+public class SupportEvent {
 
     public void onMessageReceived(MessageReceivedEvent e){
         EmbedBuilder eB = new EmbedBuilder();
         Message msg = e.getMessage();
         if (msg.getContentRaw().startsWith(lib.prefix + "support")){
             e.getAuthor().openPrivateChannel().queue(msgQ -> {
-                eB.addField("Persönlicher Support", "```Du hast eine Frage zum Server, möchtests einen Bug melden oder hast Vorschläge? Dann sende sie in diesem Chat```", false);
-                eB.addField("Wie geht der Support?", "```Damit du einen Mod oder Admin erreichst benutze den folgenden Command```", false);
-                eB.addField("", "`!support start` -> Starte den Support \n`!support msg <nachricht>` -> Beschriebe hier deine Probleme \n`!support rep <id> <nachricht>` -> Antworte auf eine Nachricht von die dir gesendet wurde", false);
+                eB.addField("Persönlicher SupportEvent", "```Du hast eine Frage zum Server, möchtests einen Bug melden oder hast Vorschläge? Dann sende sie in diesem Chat```", false);
+                eB.addField("Wie geht der SupportEvent?", "```Damit du einen Mod oder Admin erreichst benutze den folgenden Command```", false);
+                eB.addField("", "`!support start` -> Starte den SupportEvent \n`!support msg <nachricht>` -> Beschriebe hier deine Probleme \n`!support rep <id> <nachricht>` -> Antworte auf eine Nachricht von die dir gesendet wurde", false);
                 eB.setColor(Yellow.y800);
                 msgQ.sendMessage(eB.build());
 

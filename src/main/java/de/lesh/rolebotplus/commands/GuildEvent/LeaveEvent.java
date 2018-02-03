@@ -7,7 +7,7 @@ import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.events.guild.member.GuildMemberLeaveEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-public class leave extends ListenerAdapter {
+public class LeaveEvent extends ListenerAdapter {
     public void onGuildMemberLeave(GuildMemberLeaveEvent e) {
         EmbedBuilder eB = new EmbedBuilder();
         long userID = e.getUser().getIdLong();
