@@ -15,4 +15,4 @@ An improved RoleBot for Discord. Using this bot allowes users different possibil
 - Person Help Command
 
 # Public Bot
-This Bot isn't public. It's only avaible on the CodeDecity Discord Server ((Try it out)[https://discord.gg/889PF8Q]) and it manages the roles and some permissions. In the future I will release a public version of this bot which you can setup for your personal preferences. Just wait and maybe use pull requests to get this bot early
+This Bot isn't public. It's only avaible on the CodeDecity Discord Server ([Try it out](https://discord.gg/889PF8Q)) and it manages the roles and some permissions. In the future I will release a public version of this bot which you can setup for your personal preferences. Just wait and maybe use pull requests to get this bot early
