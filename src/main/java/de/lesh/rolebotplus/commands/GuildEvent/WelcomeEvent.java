@@ -14,7 +14,7 @@ public class WelcomeEvent extends ListenerAdapter {
         EmbedBuilder eB = new EmbedBuilder();
         if (!e.getMember().getUser().isBot()) {
             eB.addField("Willkommen auf " + e.getGuild().getName(), e.getMember().getAsMention() + " (" + e.getMember().getUser().getName() + " #" + e.getMember().getUser().getDiscriminator() + ") hat den Server betreten", true);
-            eB.addField("Introduction", "```Um alle Infos zu erhalten besuche #willkommen , für weiter Hilfe Frage in #discussion nach und andere werden dir helfen. Damit du alle Funktionen auf dem Server nutzen kannst, bestätige dich mit **!VerifyEvent**```", false);
+            eB.addField("Introduction", "```Um alle Infos zu erhalten besuche #willkommen , für weiter Hilfe frage in #discussion nach und andere können dir helfen. Damit du alle Funktionen auf dem Server nutzen kannst, bestätige dich mit **!VerifyEvent**```", false);
             eB.setFooter(" - RoleBot+ - More infos: !help - Made by Lesh", e.getMember().getUser().getEffectiveAvatarUrl());
             eB.setColor(Blue.b400);
             Main.jLog.info("User " + e.getMember().getEffectiveName() + " joined the Guild (" + e.getGuild().getName() + ")");

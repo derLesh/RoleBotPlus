@@ -1,4 +1,4 @@
-package de.lesh.rolebotplus.commands.MessageEvent;
+package de.lesh.rolebotplus.commands.MessageEvent.PrivateChannel;
 
 import me.lesh.material.Green;
 import me.lesh.material.Red;
@@ -38,7 +38,7 @@ public class BotInviteEvent extends ListenerAdapter {
         EmbedBuilder eB = new EmbedBuilder();
         if (event.getMessage().getContentRaw().contains("https://discordapp.com/api/oauth2/authorize?client_id=") && event.getChannelType().isGuild()) {
             event.getMessage().delete().queue();
-            eB.addField("\uD83D\uDD38 Information", "```Bitte sende den Invite Link erneut in **diesen** Chat, damit dieser an einen Owner gesendet werden kann```", false);
+            eB.addField("\uD83D\uDD38 Information", "```Bitte sende den Invite Link erneut in >diesen< Chat, damit dieser an einen Owner gesendet werden kann```", false);
             eB.addField("\uD83D\uDD38 Public BotInviteEvent", "```Damit der BotInviteEvent hinzugefügt werden kann muss die Einstellung **Public BotInviteEvent** aktiviert sein```", true);
             eB.addField("\uD83D\uDD38 Permissions=0", "```Bots nicht mit Permissions schicken. Lass sie unverändert und er wird angepasst auf den Server gestellt```", true);
             eB.setColor(Red.r300);

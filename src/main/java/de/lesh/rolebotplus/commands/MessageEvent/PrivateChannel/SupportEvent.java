@@ -1,4 +1,4 @@
-package de.lesh.rolebotplus.commands.MessageEvent;
+package de.lesh.rolebotplus.commands.MessageEvent.PrivateChannel;
 
 import de.lesh.rolebotplus.utils.lib;
 import me.lesh.material.Yellow;
